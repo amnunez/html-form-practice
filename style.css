@@ -6,27 +6,27 @@ section {
   margin-bottom: 100px;
 }
 
-main h1 {
-  margin: 0 10px;
-  border-bottom: 1px solid gray;
-}
-
 main h2 {
-  margin: 12px 10px;
-  border-bottom: 1px solid lightgray;
+  text-align: center;
+  font-size: 50px;
+  margin: 10px 10px;
+  border-bottom: 1px solid goldenrod;
 }
-
-main img {
-  width: 100%;
+/* form buttons */
+.button-wrap {
+  display: flex;
+  justify-content: space-between;
 }
-
-/* Contact Form - Image */
-
-.contact-image {
-  border: 1px solid #ababab;
-  border-radius: 8px;
+form button {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 0;
+  font-family: Tahoma;
+  font-size: 16px;
+  background: goldenrod;
+  color: #fff;
+  margin: 0 0 0 6px;
 }
-
 /* Groups & Items  (Mobile First) */
 
 .group {
@@ -57,11 +57,6 @@ main img {
 }
 
 /* ---  Contact Form Design --- */
-
-form {
-  padding-right: 6px;
-  /* Fixed small sizing issue on the right */
-}
 
 form input,
 form textarea {
